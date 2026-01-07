@@ -3,7 +3,6 @@ import datetime
 import sys
 from scapy.all import sniff, IP, TCP, UDP, wrpcap
 from datetime import datetime
-import subprocess
 
 captured_packets = []
 
